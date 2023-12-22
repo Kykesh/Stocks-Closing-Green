@@ -1,15 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Market Tracker</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="style.css">
-</head>
 <body>
-    <h1>Stocks Closing Green:</h1>
-    <h2 id="count-el">0</h2>
-    <button id="increment-btn" onclick="increment()">ADD STOCK</button>
-    <button id="save-btn" onclick="save()">SAVE</button>
-    <p id="save-el">Today's List: </p>
-    <script src="script.js"></script>
+    <main class="container">
+        <h1>Stocks Closing Green:</h1>
+        <h2 id="count-el">0</h2>
+        <button id="increment-btn" onclick="increment()">ADD STOCK</button>
+        <button id="save-btn" onclick="save()">SAVE</button>
+        <p id="save-el">Today's List: </p>
+    </main>
+    <script src="script.js"></script> 
 </body>
 </html>
